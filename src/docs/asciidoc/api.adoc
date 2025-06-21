@@ -1,0 +1,21 @@
+= Shop Application API Documentation
+:toc:
+:toc-title: Table of Contents
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:sectnums:
+:snippets: ../target/generated-snippets
+
+== Inventory API
+
+=== Get All Products
+include::{snippets}/products-get-all/response-fields.adoc[]
+
+=== Get Product By ID
+include::{snippets}/products-get-by-id/response-fields.adoc[]
+
+=== Create Product
+include::{snippets}/products-create/request-fields.adoc[]
+include::{snippets}/products-create/response-fields.adoc[]
+
