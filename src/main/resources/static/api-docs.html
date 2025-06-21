@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shop Application API Documentation</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f7f6;
+            color: #333;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #34495e;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            color: #34495e;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        ul {
+            list-style-type: none; /* Remove default bullet points */
+            padding: 0;
+            margin-bottom: 20px;
+        }
+
+        ul li {
+            margin-bottom: 8px;
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #2980b9;
+            text-decoration: underline;
+        }
+
+        /* Styling for API endpoint links */
+        h2 + ul a strong {
+            background-color: #eaf2f8; /* Light blue background for emphasis */
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+
+        hr {
+            border: 0;
+            height: 1px;
+            background: #eee;
+            margin: 40px 0;
+        }
+
+        /* Specific style for the "View Test Report" link */
+        .test-report-link {
+            font-weight: bold;
+            color: #e74c3c; /* A distinct color for the report link */
+        }
+        .test-report-link:hover {
+            color: #c0392b;
+        }
+    </style>
+</head>
+<body>
+<h1>Shop Application API Documentation</h1>
+<p>This is a minimal Spring Boot application structured as a Modulith, following the official Spring Modulith documentation. The site demonstrates modular design, event-based communication, and API documentation generated from tests.</p>
+<ul>
+    <li><a href="#inventory">Inventory API</a></li>
+    <li><a href="#orders">Orders API</a></li>
+    <li><a href="http://localhost:8080/docs/api.html" target="_blank" class="test-report-link">View Test Report (index.html)</a></li>
+</ul>
+<h2 id="inventory">Inventory API</h2>
+<ul>
+    <li><a href="#get-all-products"><strong>GET /inventory/products</strong></a> - List all products</li>
+    <li><a href="#create-product"><strong>POST /inventory/products</strong></a> - Create a new product</li>
+</ul>
+<h2 id="orders">Orders API</h2>
+<ul>
+    <li><a href="#get-all-orders"><strong>GET /orders</strong></a> - List all orders</li>
+    <li><a href="#create-order"><strong>POST /orders</strong></a> - Create a new order</li>
+</ul>
+<hr>
+<h3 id="get-all-products">GET /inventory/products</h3>
+<p>Returns a list of all products in the inventory.</p>
+<h3 id="create-product">POST /inventory/products</h3>
+<p>Creates a new product in the inventory.</p>
+<h3 id="get-all-orders">GET /orders</h3>
+<p>Returns a list of all orders.</p>
+<h3 id="create-order">POST /orders</h3>
+<p>Creates a new order.</p>
+</body>
+</html>
